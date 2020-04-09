@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import deskImg from "./img/wood-desk.png"
+import Header from './components/Header/Header';
 import './App.css';
+import About from './components/About/About';
 
 function App() {
   return (
     <div className="App">
-    
+      <Header />
+      <About />
     </div>
   );
 }
